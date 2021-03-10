@@ -1,0 +1,18 @@
+{
+  "name": "SuchiWeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/*.html -d dist",
+    "build": "parcel build src/*.html -d public --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
